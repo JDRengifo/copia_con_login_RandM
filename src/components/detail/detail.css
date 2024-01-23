@@ -1,0 +1,28 @@
+.detailDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.detailDatos {
+    width: 600px;
+    height: 600px;
+}
+
+.detailImagen {
+    background-color: blue;
+    display: flex;
+    position: relative;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 30px solid rgb(211, 205, 205);
+    background-size: cover;
+    background-position: center;
+
+}
+
+h3 {
+    color: rgb(21, 204, 218);
+    font-size: 4em;
+}

@@ -4,7 +4,7 @@
 }
 
 .detailDatos {
-    width: 600px;
+    width: 800px;
     height: 600px;
 }
 
@@ -13,10 +13,10 @@
     display: flex;
     position: relative;
     width: 800px;
-    height: 800px;
+    height: 1000px;
     border-radius: 50%;
     margin: 20px;
-    border: 30px solid rgb(211, 205, 205);
+    border: 70px solid rgb(29, 139, 57);
     background-size: cover;
     background-position: center;
 
@@ -25,4 +25,10 @@
 h3 {
     color: rgb(21, 204, 218);
     font-size: 4em;
+}
+
+.name {
+    font-style: italic;
+    font-size: 7em;
+    color: rgb(184, 64, 174);
 }

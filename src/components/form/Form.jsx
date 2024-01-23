@@ -35,7 +35,9 @@ function Form({ login }){
     
     return(
      
+      <div className="formDiv">
         <form onSubmit={()=>login(input)}>
+
             <div className="imagenDiv">
             <img src="https://th.bing.com/th?id=OIP.gS0sLM8mRFXS_WzQmDMY5QHaLQ&w=202&h=308&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="" />
             </div>
@@ -45,12 +47,12 @@ function Form({ login }){
               <br />
               <input 
               size={40}
-                  className="input"
-                  type="text"
-                  name='email'
-                  value={input.email}
-                  onChange = {handleChange}
-                  />
+              className="input"
+              type="text"
+              name='email'
+              value={input.email}
+              onChange = {handleChange}
+              />
                   {errors.name !== '' && <h2 className="ventanaError">{errors.email}</h2>}
                         
               <hr style={{borderStyle: "none"}}/>
@@ -63,13 +65,14 @@ function Form({ login }){
                   name='password'
                   value={input.password}
                   onChange = {handleChange}
-                />
+                  />
               {errors.name !== '' && <h2 className="ventanaError">{errors.password}</h2>}
 
               <hr style={{borderStyle: "none"}}/>
               <button type="submit" disabled={!input.email || !input.password || errors.email || errors.password}>INGRESAR</button>
             </div>
         </form>
+      </div>
      
     )
 }

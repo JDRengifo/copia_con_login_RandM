@@ -10,10 +10,10 @@ export default function Cards({characters, onClose}) {
                key = {item.id}
                 id = {item.id}
                 name = {item.name}
-               //  status = {item.status}
-               //  species = {item.species}
-               //  gender = {item.gender}
-               //  origen = {item.name.origen}
+                status = {item.status}
+                species = {item.species}
+                gender = {item.gender}
+                origen = {item.name.origen}
                 image ={item.image}
                 onClose={()=>onClose(item.id)}
                 />

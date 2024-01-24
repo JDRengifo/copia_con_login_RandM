@@ -34,8 +34,8 @@ function Form({ login }){
     
     
     return(
-     
-        <form onSubmit={()=>login(input)}>
+      <div className="formDiv">
+        <form className formDiv onSubmit={()=>login(input)}>
             <div className="imagenDiv">
             <img src="https://th.bing.com/th?id=OIP.gS0sLM8mRFXS_WzQmDMY5QHaLQ&w=202&h=308&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="" />
             </div>
@@ -70,7 +70,7 @@ function Form({ login }){
               <button type="submit" disabled={!input.email || !input.password || errors.email || errors.password}>INGRESAR</button>
             </div>
         </form>
-     
+        </div>
     )
 }
 export default Form;

@@ -15,6 +15,10 @@ function Nav(props){
             <Link to='/home'>home</Link>
           </button>
          
+          <button className="botonNav">
+            <Link to='/favorites'>favorites</Link>
+          </button>
+         
 
 
           <SearchBar onSearch={props.onSearch} />

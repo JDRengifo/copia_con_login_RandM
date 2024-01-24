@@ -1,12 +1,12 @@
 .carta { 
-    background-color: blue;
+    
     display: flex;
     position: relative;
     width: 400px;
     height: 600px;
     border-radius: 10%;
     margin: 20px;
-    border: 30px solid rgb(211, 205, 205);
+    border: 50px solid rgb(211, 205, 205);
     background-size: cover;
     background-position: center;
  }
@@ -20,7 +20,7 @@
     transform: translate(-50%, -50%);
     font-family: cursive;
     font-size: 9mm;
-    color:  chartreuse;
+  
   }
 
   img {
@@ -46,10 +46,20 @@
   .botonEliminar {
     position: absolute;
     top: 1%;
-    left: 99%;
+    left: 100%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0);
     color: firebrick;
+    font-size: 33px;
+    padding: 10px 20px;
+  }
+
+  .botonCorazon {
+    position: absolute;
+    top: 100%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0);
     font-size: 33px;
     padding: 10px 20px;
   }
@@ -57,14 +67,14 @@
   
   .status {
     position: absolute;
-    top: 0%;
-    left: 10%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 40%;
+    
   }
  
   .gender {
     position: absolute;
-    top: 95%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(14, 56, 56);
@@ -74,8 +84,8 @@
      writing-mode: vertical-lr;
      text-orientation: upright;
     position: absolute;
-    top: 20%;
-    left: 0%;
+    top: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
   }
  

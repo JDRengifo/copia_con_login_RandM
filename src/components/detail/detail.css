@@ -6,18 +6,30 @@
 
 .detailDatos {
     width: 800px;
+<<<<<<< HEAD
     height: 1100px;
+=======
+    height: 600px;
+>>>>>>> d4e9d4061e0921aa4ae4aef2755a75030041a465
 }
 
 .detailImagen {
     background-color: blue;
     display: flex;
     position: relative;
+<<<<<<< HEAD
     width: 700px;
     height: 1000px;
     border-radius: 50%;
     margin: 10px;
     border: 50px solid rgb(29, 139, 57);
+=======
+    width: 800px;
+    height: 1000px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 70px solid rgb(29, 139, 57);
+>>>>>>> d4e9d4061e0921aa4ae4aef2755a75030041a465
     background-size: cover;
     background-position: center;
 

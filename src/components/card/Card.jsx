@@ -14,6 +14,7 @@ function Card(props) {
          removeFav(props.id)
       } else {
          setIsFav(true);
+<<<<<<< HEAD
          addFav({
             id: props.id,
             name: props.name,
@@ -23,6 +24,9 @@ function Card(props) {
             origen: props.origen,
             image: props.image
          })
+=======
+         addFav(props.id)
+>>>>>>> f5097545d476ba186e4c8efdc16081929137f66c
       }
    }
  
@@ -43,17 +47,26 @@ function Card(props) {
           <h2 className='nombre'>{props.name}</h2>
          </Link>
          {
+<<<<<<< HEAD
           isFav ? (
             <button className='botonCorazon' onClick={handleFavorite}>❤️</button>
             ) : (
             <button className='botonCorazon' onClick={handleFavorite}>🤍</button>
             )
           }
+=======
+   isFav ? (
+      <button onClick={handleFavorite}>❤️</button>
+   ) : (
+      <button onClick={handleFavorite}>🤍</button>
+   )
+}
+>>>>>>> f5097545d476ba186e4c8efdc16081929137f66c
           <h2 className='status'> {props.status}</h2>
           <h2 className='species'>{props.species}</h2>
           <h2 className='gender'>{props.gender}</h2>
           <h2 className='origen'> {props.origen}</h2>
-          <img src={props.image} alt=''  margin = '10px'/>
+          {/* <img src={props.image} alt=''  margin = '10px'/> */}
          
       </div>
     

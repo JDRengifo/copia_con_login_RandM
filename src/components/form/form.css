@@ -3,8 +3,7 @@
 }
 
 .formDiv {
-    background-color: rgb(177, 35, 75);
- 
+    background-color: rgb(15, 14, 14);
     position: absolute;
     background-size: cover;
     background-position: center;
@@ -13,8 +12,8 @@
 .imagenDiv {
     display: flex;
     position: relative;
-    width: 600px;
-    height: 900px;
+    width: 1100px;
+    height: 700px;
     margin: 20px;
     background-size: cover;
     background-position: center;
@@ -26,7 +25,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 590px;
+    width: 1100px;
     height: 400px;
     margin: 20px;
     background-size: cover;
@@ -36,3 +35,8 @@
  label {
     font-size: 2em;
  }
+ input {
+    height: 50px;
+    font-size: 2em;
+ } 
+ 

@@ -26,7 +26,7 @@ return(
 <div className="detailDiv">
   <div className="detailDatos">
   <h3>Datos de la tarjeta nro. {id}</h3>
-       <h3>{character.name}</h3>
+       <h3 className="name">{character.name}</h3>
        <h3> {character.status}</h3>
        <h3>{character.species}</h3>
        <h3>{character.gender}</h3>

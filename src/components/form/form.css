@@ -12,8 +12,21 @@
 .imagenDiv {
     display: flex;
     position: relative;
+<<<<<<< HEAD
     width: 450px;
     height: 600px;
+=======
+<<<<<<< HEAD
+    width: 1100px;
+=======
+<<<<<<< HEAD
+    width: 1100px;
+=======
+    width: 600px;
+>>>>>>> d4e9d4061e0921aa4ae4aef2755a75030041a465
+>>>>>>> f5097545d476ba186e4c8efdc16081929137f66c
+    height: 700px;
+>>>>>>> 84afd37e786e71224d84b5198d7a5c9773f9c901
     margin: 20px;
     background-size: cover;
     background-position: center;

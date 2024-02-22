@@ -16,7 +16,7 @@ const handleChange = (event)=> {
 }
 
    return (
-      <>
+      <div>
          <input 
             onChange={handleChange}
             value={id} 
@@ -25,7 +25,7 @@ const handleChange = (event)=> {
             type='search' placeholder="id.."
          />
          <button className='botonAgregar' onClick={handleClick}>AGREGAR</button>
-      </>
+      </div>
    );
 }
 export default SearchBar;

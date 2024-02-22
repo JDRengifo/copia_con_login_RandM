@@ -2,7 +2,7 @@
     color: red;
 }
 
-.formDiv {
+.formdiv {
     background-color: rgb(15, 14, 14);
     position: absolute;
     background-size: cover;
@@ -12,8 +12,8 @@
 .imagenDiv {
     display: flex;
     position: relative;
-    width: 1100px;
-    height: 700px;
+    width: 450px;
+    height: 600px;
     margin: 20px;
     background-size: cover;
     background-position: center;
@@ -25,18 +25,18 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 1100px;
-    height: 400px;
+    width: 550px;
+    height: 300px;
     margin: 20px;
     background-size: cover;
     background-position: center; 
  }
 
  label {
-    font-size: 2em;
+    font-size: 1,5em;
  }
  input {
-    height: 50px;
-    font-size: 2em;
+    height: 30px;
+    font-size: 1em;
  } 
  

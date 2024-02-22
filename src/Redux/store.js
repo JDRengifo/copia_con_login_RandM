@@ -5,9 +5,6 @@ import reducer from './reducer';
 // HERRAMIENTA PARA UTILIZAR REDUX DEV TOOLS EN EL NAVEGADOR
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
-const store = createStore(
-    reducer,
-    composeEnhancers(applyMiddleware(thunk))
-);
+const store = createStore(reducer, composeEnhancers(applyMiddleware(thunk)));
 
 export default store;

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import axios from 'axios'
 import { useParams } from "react-router-dom";
+import { URL } from "../../App";
 import './detail.css'
 
 function Detail(){
@@ -8,10 +9,8 @@ function Detail(){
   const [character, setCharacter] = useState({});
     
   useEffect(() => {
-    axios(`https://rickandmortyapi.com/api/character/${id}`).then(({ data }) => {
-      
-      console.log(data)
-      console.log(data.name)
+    axios(`${URL}${id}`).then(({ data }) => {
+            
       if (data.name) {
         setCharacter(data);
       } else {

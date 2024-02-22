@@ -18,8 +18,6 @@ function Nav(props){
           <button className="botonNav">
             <Link to='/favorites'>favorites</Link>
           </button>
-         
-
 
           <SearchBar onSearch={props.onSearch} />
           </div>

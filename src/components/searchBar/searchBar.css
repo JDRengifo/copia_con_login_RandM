@@ -8,23 +8,4 @@
     
 }
   
- .botonAgregar {
-    position: absolute;
-  
-    left:89%;
-    border: 20px;
-    font-size: 54px;
-    padding: 10px 20px;
-    margin: 15px;
-    padding: 5px;
-}
-.imput {
-    position: absolute;
-    top: 2%;
-    left:70%;
-    border: 20px;
-    font-size: 54px;
-    padding: 10px 20px;
-    margin: 15px;
-    padding: 5px;
-}
+

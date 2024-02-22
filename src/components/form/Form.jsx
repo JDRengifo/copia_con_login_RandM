@@ -16,26 +16,23 @@ function Form({ login }){
     })
 
     const handleChange = (event) => {
-      setInput({
+       setInput({
         ...input,
         [event.target.name]: event.target.value
       })
 
-      setErrors(validation(input))
+      setErrors(validation({ ...input, [event.target.name]: event.target.value}))
     }
     
     const onSubmit = (event) => {
       event.preventDefault();
-      setInput({
-      email:'',
-      password: ''
-      })
+      login(input)
     }
     
     
     return(
-      <div className="formDiv">
-        <form className formDiv onSubmit={()=>login(input)}>
+      <div className="formdiv">
+        <form  onSubmit={onSubmit}>
             <div className="imagenDiv">
             <img src="https://th.bing.com/th?id=OIP.gS0sLM8mRFXS_WzQmDMY5QHaLQ&w=202&h=308&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="" />
             </div>
